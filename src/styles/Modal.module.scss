@@ -1,0 +1,40 @@
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.modalForm {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.window {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 4px;
+  position: relative;
+  z-index: 2;
+  background: linear-gradient(90deg,
+  rgb(93, 173, 23) 0%,
+  rgb(194, 232, 43) 100%);
+  color: #fff;
+}
+
+.backdrop {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 1;
+}

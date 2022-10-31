@@ -1,0 +1,40 @@
+.subtask {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 4px 20px;
+	color: #fff;
+	background: linear-gradient(90deg,
+			rgba(17, 122, 255, 1) 0%,
+			rgba(0, 8, 250, 1) 100%);
+
+	padding: 16px;
+	border-radius: 5px;
+}
+
+.subtask:nth-child(4n + 1) {
+	background: linear-gradient(90deg,
+			rgba(0, 8, 250, 1) 0%,
+			rgb(98, 4, 157) 100%);
+}
+
+.subtask:nth-child(4n + 2) {
+	background: linear-gradient(90deg,
+			rgba(194, 232, 43) 0%,
+			rgba(13, 167, 49, 1) 100%);
+}
+
+.subtask:nth-child(4n + 3) {
+	background: linear-gradient(90deg,
+			rgba(13, 167, 49, 1) 0%,
+			rgba(17, 122, 255, 1) 100%);
+}
+
+.icons {
+	font-size: 24px;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 60px;
+}

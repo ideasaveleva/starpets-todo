@@ -1,0 +1,29 @@
+.taskWrap {
+	margin-bottom: 30px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.task {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	background: linear-gradient(90deg,
+			rgba(255, 118, 20, 1) 0%,
+			rgb(228, 14, 14) 100%);
+
+	padding: 16px;
+	border-radius: 5px;
+}
+
+.icons {
+	font-size: 24px;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 96px;
+}
